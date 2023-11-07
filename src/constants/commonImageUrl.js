@@ -1,4 +1,6 @@
-export const MAIN_BANNER_URL = "./static/images/main_banner.jpg";
+export const BASE_URL = "https://smmne.github.io/portfolio/";
+
+export const MAIN_BANNER_URL = `${BASE_URL}/static/images/main_banner.jpg`;
 export const ICON_HTML_URL = "/static/images/icons/icon_html.png";
 export const ICON_CSS_URL = "/static/images/icons/icon_css.png";
 export const ICON_JAVASCRIPT_URL = "/static/images/icons/icon_javascript.png";
