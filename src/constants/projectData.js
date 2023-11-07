@@ -1,0 +1,153 @@
+import {
+  IMG_DVPHARM_THUMB_URL,
+  IMG_FOURPAWS_THUMB_URL,
+  IMG_PARTNERS_THUMB_URL,
+  IMG_PETDOC_THUMB_URL,
+  IMG_VET_THUMB_URL,
+  IMG_VLAB_THUMB_URL,
+  IMG_YK_THUMB_URL,
+  IMG_YK_WORK_THUMB_URL,
+  IMG_YK_DETE_THUMB_URL,
+  IMG_YK_DIVO_THUMB_URL,
+  IMG_KOLIA_THUMB_URL,
+  IMG_LINKBE_THUMB_URL,
+  IMG_MODU_THUMB_URL,
+  IMG_REVIEW_THUMB_URL,
+} from "./commonImageUrl";
+
+export const projectData = [
+  {
+    id: 1,
+    title: "펫닥 기업 홈페이지",
+    stack: "React(Gatsby)",
+    description:
+      "펫닥의 모든 서비스와 기업 이념을 소개하는 홈페이지입니다. 공고 리스트 및 공고 상세보기 페이지는, 페이지에 진입한 후 API 요청을 하여 정보를 받아옵니다. 그 외의 페이지에는 API 요청이 없습니다.",
+    image: IMG_PETDOC_THUMB_URL,
+    url: "https://petdoc.co.kr/",
+  },
+  {
+    id: 2,
+    title: "FOUR PAWS",
+    stack: "Next.js",
+    description:
+      "반려동물 장례식장인 브이메모리얼 = 포포즈(Four Paws)의 서비스 및 지점을 소개하고, 비회원 예약이 가능한 홈페이지입니다.",
+    image: IMG_FOURPAWS_THUMB_URL,
+    url: "https://fourpaws.co.kr/",
+  },
+  {
+    id: 3,
+    title: "Vet화점",
+    stack: "CAFE24",
+    description:
+      "다양한 의료 소모품과 진단/수술기구 동물 병원 전용 용품, 사료/식품 등 펫닥 파트너를 위한 동물 병원 전용 몰입니다.",
+    image: IMG_VET_THUMB_URL,
+    url: "https://xn--tl3bw1s9pl.com/",
+  },
+  {
+    id: 4,
+    title: "DVPharm",
+    stack: "Jquery, Java",
+    description:
+      "약품 정보 검색, 약 원가 계산, 보호자 복약 안내 등 동물 병원의 체계적인 처방 관리를 위한 약학 정보 서비스입니다.",
+    image: IMG_DVPHARM_THUMB_URL,
+    url: "https://partner.petdoc.co.kr/dvpharmTutorial",
+  },
+  {
+    id: 5,
+    title: "V+partners",
+    stack: "Jquery, Java",
+    description:
+      "동물병원에 필요한 다양한 서비스 제공을 통해 원활한 병원 운영을 서포트 하는 홈페이지입니다.",
+    image: IMG_PARTNERS_THUMB_URL,
+    url: "https://partner.petdoc.co.kr/",
+  },
+  {
+    id: 6,
+    title: "V+lab",
+    stack: "CAFE24",
+    description: "펫닥에서 생산한 제품을 고객에게 제공하는 홈페이지입니다.",
+    image: IMG_VLAB_THUMB_URL,
+    url: "https://vlab.kr/",
+  },
+  {
+    id: 7,
+    title: "펫닥 ADMIN",
+    stack: "React(mui 기반 템플릿)",
+    description:
+      "펫닥 내에서 임직원들이 고객관리 및 서비스 관리를 할 수 있는 어드민 홈페이지입니다(해당 이미지 및 링크 미제공)",
+  },
+  {
+    id: 8,
+    title: "법무법인 YK",
+    stack: "Jquery, php",
+    description: "법무법인 YK법률사무소의 대표 홈페이지입니다.",
+    image: IMG_YK_THUMB_URL,
+    url: "https://www.yklawfirm.co.kr/yk",
+  },
+  {
+    id: 9,
+    title: "법무법인 YK 노사공감",
+    stack: "Jquery, php",
+    description: "법무법인 YK의 노사법률사무소 홈페이지입니다.",
+    image: IMG_YK_WORK_THUMB_URL,
+    url: "https://www.yklawfirm.co.kr/work",
+  },
+  {
+    id: 10,
+    title: "YK 기업법무그룹",
+    stack: "Jquery, php",
+    description: "법무법인 YK의 기업법무그룹 홈페이지입니다.",
+    image: IMG_YK_WORK_THUMB_URL,
+    url: "https://www.yklawfirm.co.kr/ip",
+  },
+  {
+    id: 11,
+    title: "법무법인 YK 형사센터",
+    stack: "Jquery, php",
+    description: "법무법인 YK의 형사센터 홈페이지입니다.",
+    image: IMG_YK_DETE_THUMB_URL,
+    url: "https://www.yklawfirm.co.kr/dete",
+  },
+  {
+    id: 12,
+    title: "법무법인 YK 이혼상속센터",
+    stack: "Jquery, php",
+    description: "법무법인 YK의 이혼상속센터 홈페이지입니다.",
+    image: IMG_YK_DIVO_THUMB_URL,
+    url: "https://ykehon.co.kr/divo1/",
+  },
+  {
+    id: 13,
+    title: "한국김산업연합회",
+    stack: "Jquery, php",
+    description: "한국김산업연합회의 대표 홈페이지입니다.",
+    image: IMG_KOLIA_THUMB_URL,
+    url: "http://kolia.org/",
+  },
+  {
+    id: 14,
+    title: "LINKBE",
+    stack: "Jquery, php",
+    description: "맞춤형 홈페이지 제작 링크비의 대표 홈페이지입니다.",
+    image: IMG_LINKBE_THUMB_URL,
+    url: "https://linkbe.kr/",
+  },
+  {
+    id: 15,
+    title: "모블(모두의블로그)",
+    stack: "Jquery, php",
+    description:
+      "블로그 체험단을 신청할 수 있는 모두의 블로그 대표 홈페이지입니다.",
+    image: IMG_MODU_THUMB_URL,
+    url: "https://www.modublog.co.kr/",
+  },
+  {
+    id: 16,
+    title: "REVIEWPLACE",
+    stack: "Jquery, php",
+    description:
+      "블로그 체험단을 신청할 수 있는 리뷰플레이스 대표 홈페이지입니다.",
+    image: IMG_REVIEW_THUMB_URL,
+    url: "https://www.reviewplace.co.kr/",
+  },
+];

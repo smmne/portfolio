@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import ImageSection from "./components/ImageSection";
+import ContactSection from "./components/section/ContactSection";
+import HeaderSection from "./components/section/HeaderSection";
+import IntroduceSection from "./components/section/IntroduceSection";
+import ProjectSection from "./components/section/ProjectSection";
+import SkillSection from "./components/section/SkillSection";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="wrapper" className="App">
+      <section className="intro">
+        <HeaderSection />
+        <ImageSection />
+      </section>
+      <section id="first">
+        <IntroduceSection />
+      </section>
+      <section>
+        <SkillSection />
+      </section>
+      <section>
+        <ProjectSection />
+      </section>
+      <section>
+        <ContactSection />
+      </section>
+      <div className="copyright">
+        Copyright &copy; 2023. Seonmin All rights reserved.
+      </div>
     </div>
   );
 }
